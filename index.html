@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://kit.fontawesome.com/2c47716a54.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-
+JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-
+DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-
+9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-
+B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2c47716a54.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="sectionstartpage">
+      <div class="bg-container d-flex flex-column justify-content-center">
+        <div class="logo-container2 d-flex flex-row justify-content-center">
+          <img
+            class="logo2"
+            src="https://res.cloudinary.com/dkbwdkthr/image/upload/v1670604138/Screenshot_2022
+1209_220929_Chrome_duni2x.jpg"
+          />
+          <div
+            class="logo-name-container2 d-flex flex-column justify-content-center"
+          >
+            <h1 class="logo-name2">Tutor Bunny</h1>
+          </div>
+        </div>
+        <div class="button-container d-flex flex-row justify-content-center">
+          <button class="start-button" onclick="display('sectionsignpage')">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectionsignpage">
+      <div class="bg-container">
+        <div class="email-container">
+          <img
+            class="logo"
+            src="https://res.cloudinary.com/dkbwdkthr/image/upload/v1670604138/Screenshot_2022
+1209_220929_Chrome_duni2x.jpg"
+          />
+          <h1 class="logo-name">Tutor Bunny</h1>
+          <h1 class="main-heading">SIGN UP</h1>
+          <div class="d-flex flex-row justify-content-center">
+            <p class="text-box">YOUR EMAIL</p>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <p class="text-box">PASSWORD</p>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <button class="blue-button" onclick="display('sectionyearpage')">
+              SIGN UP
+            </button>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <h1 class="or">------------ OR ------------</h1>
+          </div>
+          <h1 class="main-heading">SIGN IN</h1>
+          <div class="d-flex flex-row justify-content-center">
+            <button class="blue-button">
+              <img
+                class="g-logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_L
+ogo.svg/1200px-Google_%22G%22_Logo.svg.png"
+              />
+              Continue with GOOGLE
+            </button>
+          </div>
+          <div class="login d-flex flex-row justify-content-center">
+            Already a USER?...
+            <div class="login-text" onclick="display('sectionLOGINPAGE') ">
+              login
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectionLOGINPAGE">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="login-background">
+          <h1 class="main-heading">LOG IN</h1>
+          <div class="d-flex flex-row justify-content-center">
+            <h1 class="or">-------------------------------</h1>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <p class="phone-number-box">+91| YOUR MOBILE NUMBER</p>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <button class="back-button" onclick="display('sectionsignpage')">
+              Back
+            </button>
+            <button class="send-button" onclick="display('sectionOTPPAGE')">
+              Send OTP
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectionOTPPAGE">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="login-background">
+          <h1 class="enter-otp">ENTER 6-digit OTP</h1>
+          <div class="d-flex flex-row justify-content-center">
+            <h1 class="or">-------------------------------</h1>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <h1 class="number-box">_</h1>
+            <h1 class="number-box">_</h1>
+            <h1 class="number-box">_</h1>
+            <h1 class="number-box">_</h1>
+            <h1 class="number-box">_</h1>
+            <h1 class="number-box">_</h1>
+          </div>
+          <div class="d-flex flex-row justify-content-center">
+            <button
+              class="back-button"
+              onclick="display('sectionLOGINPAGE') 
+"
+            >
+              Back
+            </button>
+            <button class="resend-button">Resend OTP</button>
+          </div>
+          <p class="otp-timer">Resend OTP in : 30 seconds</p>
+          <div class="d-flex flex-row justify-content-end">
+            <button class="login-button" onclick="display('sectionyearpage')">
+              LOG IN
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectionyearpage">
+      <div>
+        <div class="workpage-background">
+          <div class="nav-bar d-flex flex-row justify-content-start">
+            <div>
+              <img
+                class="nav-bar-logo"
+                src="https://res.cloudinary.com/dkbwdkthr/image/upload/v1670604138/Screenshot_2022
+1209_220929_Chrome_duni2x.jpg"
+              />
+            </div>
+            <div class="nav-bar-options"><p>Home</p></div>
+            <div class="nav-bar-options"><p>About</p></div>
+            <div class="nav-bar-options"><p>Contact us</p></div>
+            <div class="nav-bar-options-bell">
+              <p><i class="fa-solid fa-bell"></i></p>
+            </div>
+          </div>
+          <div class="box-background d-flex flex-row justify-content-start">
+            <div class="year-box" onclick="display('sectiondepartmentpage')">
+              <div
+                class="year-box-heading-container d-flex flex-column justify-content-center"
+              >
+                <h1 class="year-heading">1st YEAR</h1>
+              </div>
+              <div
+                class="description-box d-flex flex-column justify-content-center"
+              >
+                <p class="description">
+                  All department of 1st year notes , question papers ,
+                  reference's are available in this link.
+                </p>
+                <div class="image-container">
+                  <img
+                    class="image"
+                    src="https://media.istockphoto.com/id/942286504/vector/desktop-computer-icon-vector-isolated.jpg?s=612x612&w=0&k=20&c=mFeaYPwZqKHWLSC1RBphDwHDUi_P6lJ0
+O2YPe935vcg="
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="year-box" onclick="display('sectiondepartmentpage')">
+              <div
+                class="year-box-heading-container d-flex flex-column justify-content-center"
+              >
+                <h1 class="year-heading">2nd YEAR</h1>
+              </div>
+              <div
+                class="description-box d-flex flex-column justify-content-center"
+              >
+                <p class="description">
+                  All department of 2nd year notes , question papers ,
+                  reference's are available in this link.
+                </p>
+                <div class="image-container">
+                  <img
+                    class="image"
+                    src="https://clipart.world/wp-content/uploads/2020/09/Camera-clipart.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="year-box" onclick="display('sectiondepartmentpage')">
+              <div
+                class="year-box-heading-container d-flex flex-column justify-content-center"
+              >
+                <h1 class="year-heading">3rd YEAR</h1>
+              </div>
+              <div
+                class="description-box d-flex flex-column justify-content-center"
+              >
+                <p class="description">
+                  All department of 3rd year notes , question papers ,
+                  reference's are available in this link.
+                </p>
+                <div class="image-container">
+                  <img
+                    class="image"
+                    src="https://play-lh.googleusercontent.com/36szRvmqeewn6fxpx9V88zhpPU3c84Im9zjAFPZl-cReiztnAD6cn0jSnWBGsNNdPsU"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="year-box" onclick="display('sectiondepartmentpage')">
+              <div
+                class="year-box-heading-container d-flex flex-column justify-content-center"
+              >
+                <h1 class="year-heading">4th YEAR</h1>
+              </div>
+              <div
+                class="description-box d-flex flex-column justify-content-center"
+              >
+                <p class="description">
+                  All department of 4th year notes , question papers ,
+                  reference's are available in this link.
+                </p>
+                <div class="image-container">
+                  <img
+                    class="image"
+                    src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/3164270/pen-clipart-md.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectiondepartmentpage">
+      <div class="workpage-background">
+        <div class="nav-bar d-flex flex-row justify-content-start">
+          <div>
+            <img
+              class="nav-bar-logo"
+              src="https://res.cloudinary.com/dkbwdkthr/image/upload/v1670604138/Screenshot_2022
+1209_220929_Chrome_duni2x.jpg"
+            />
+          </div>
+          <div class="nav-bar-options"><p>Home</p></div>
+          <div class="nav-bar-options"><p>About</p></div>
+          <div class="nav-bar-options"><p>Contact us</p></div>
+          <div class="nav-bar-options-bell">
+            <p><i class="fa-solid fa-bell"></i></p>
+          </div>
+        </div>
+
+        <div class="box-background">
+          <h1 class="department-name">Select Your Department</h1>
+          <h1 class="or">
+            -----------------------------------------------------------------------------
+            --------------------------------------
+          </h1>
+          <div
+            class="department-container d-flex flex-row justify-content-center"
+          >
+            <div class="left d-flex flex-column justify-content-start">
+              <h1
+                class="department"
+                onclick="display('sectiondepartmentsempage')"
+              >
+                CSE
+              </h1>
+              <h1
+                class="department"
+                onclick="display('sectiondepartmentsempage')"
+              >
+                IT
+              </h1>
+              <h1
+                class="department"
+                onclick="display('sectiondepartmentsempage')"
+              >
+                ECE
+              </h1>
+            </div>
+            <div class="right d-flex flex-column justify-content-start">
+              <h1
+                class="department"
+                onclick="display('sectiondepartmentsempage')"
+              >
+                EEE
+              </h1>
+              <h1
+                class="department"
+                onclick="display('sectiondepartmentsempage')"
+              >
+                MECH
+              </h1>
+              <h1
+                class="department"
+                onclick="display('sectiondepartmentsempage')"
+              >
+                AI/DS
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sectiondepartmentsempage">
+      <div class="workpage-background2">
+        <div class="nav-bar d-flex flex-row justify-content-start">
+          <div>
+            <img
+              class="nav-bar-logo"
+              src="https://res.cloudinary.com/dkbwdkthr/image/upload/v1670604138/Screenshot_2022
+1209_220929_Chrome_duni2x.jpg"
+            />
+          </div>
+          <div class="nav-bar-options"><p>Home</p></div>
+          <div class="nav-bar-options"><p>About</p></div>
+          <div class="nav-bar-options"><p>Contact us</p></div>
+          <div class="nav-bar-options-bell">
+            <p><i class="fa-solid fa-bell"></i></p>
+          </div>
+        </div>
+
+        <div class="box-background3">
+          <h1 class="department-name">Select Your Department</h1>
+          <h1 class="or">
+            -----------------------------------------------------------------------------
+            --------------------------------------
+          </h1>
+          <div
+            class="department-container d-flex flex-row justify-content-center"
+          >
+            <div class="left d-flex flex-column justify-content-start">
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 1
+              </h1>
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 2
+              </h1>
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 3
+              </h1>
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 4
+              </h1>
+            </div>
+            <div class="right d-flex flex-column justify-content-start">
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 5
+              </h1>
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 6
+              </h1>
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 7
+              </h1>
+              <h1 class="department" onclick="display('sectionpdfPAGE')">
+                Sem 8
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sectionpdfPAGE">
+      <div class="workpage-background2">
+        <div class="nav-bar d-flex flex-row justify-content-start">
+          <div>
+            <img
+              class="nav-bar-logo"
+              src="https://res.cloudinary.com/dkbwdkthr/image/upload/v1670604138/Screenshot_2022
+1209_220929_Chrome_duni2x.jpg"
+            />
+          </div>
+          <div class="nav-bar-options"><p>Home</p></div>
+          <div class="nav-bar-options"><p>About</p></div>
+          <div class="nav-bar-options"><p>Contact us</p></div>
+          <div class="nav-bar-options-bell">
+            <p><i class="fa-solid fa-bell"></i></p>
+          </div>
+        </div>
+        <div class="box-background2">
+          <div class="pdf-container">
+            <h1 class="dept-description">Notes</h1>
+            <h1 class="or">
+              --------------------------------------------------------------------------
+              -----------------------------------------
+            </h1>
+          </div>
+          <div class="pdf-container d-flex flex-row justify-content-start">
+            <div class="pdf">
+              <a
+                href="https://drive.google.com/file/d/1b6_EI3EooFF5g5Iiwei1UURLdcMx5v7Z/view?us
+p=share_link"
+                target="_blank"
+              >
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Notes 1</h1>
+              </a>
+            </div>
+            <div class="pdf">
+              <a
+                href="https://drive.google.com/file/d/1VlDaDSHqhXn84r5QN9woXBgJfw5cpG07/view?
+usp=share_link"
+                target="_blank"
+              >
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Notes 2</h1>
+              </a>
+            </div>
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Notes 3</h1>
+              </a>
+            </div>
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Notes 4</h1>
+              </a>
+            </div>
+
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Notes 5</h1>
+              </a>
+            </div>
+          </div>
+          <div class="pdf-container">
+            <h1 class="dept-description">Question Banks</h1>
+            <h1 class="or">
+              --------------------------------------------------------------------------
+              -----------------------------------------
+            </h1>
+          </div>
+          <div class="pdf-container d-flex flex-row justify-content-start">
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Question 1</h1>
+              </a>
+            </div>
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Question 2</h1>
+              </a>
+            </div>
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Question 3</h1>
+              </a>
+            </div>
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Question 4</h1>
+              </a>
+            </div>
+            <div class="pdf">
+              <a href="" target="_blank">
+                <img
+                  class="pdf-image"
+                  src="https://play-lh.googleusercontent.com/9XKD5S7rwQ6FiPXSyp9SzLXfIue88ntf9sJ9K250IuHTL7pm
+n2-ZB0sngAX4A2Bw4w"
+                />
+                <h1 class="pdf-name">Question 5</h1>
+              </a>
+            </div>
+          </div>
+          <div class="pdf-container">
+            <h1 class="dept-description">Reference</h1>
+
+            <h1 class="or">
+              --------------------------------------------------------------------------
+              -----------------------------------------
+            </h1>
+          </div>
+          <div class="pdf-container d-flex flex-row justify-content-start">
+            <div class="pdf">
+              <img class="pdf-image" src="" />
+              <h1 class="pdf-name"></h1>
+            </div>
+            <div class="pdf">
+              <img class="pdf-image" src="" />
+              <h1 class="pdf-name"></h1>
+            </div>
+            <div class="pdf">
+              <img class="pdf-image" src="" />
+              <h1 class="pdf-name"></h1>
+            </div>
+            <div class="pdf">
+              <img class="pdf-image" src="" />
+              <h1 class="pdf-name"></h1>
+            </div>
+            <div class="pdf">
+              <img class="pdf-image" src="" />
+              <h1 class="pdf-name"></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>
